@@ -28,7 +28,7 @@ function Home() {
     };
 
     fetchQuestions();
-  }, [user]);
+  }, []);
 
   const filterdQuestion = allquestions.filter((question) =>
     question.title.toLowerCase().includes(searchQuery.toLowerCase())
