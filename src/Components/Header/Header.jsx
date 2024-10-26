@@ -1,5 +1,5 @@
 // import React from "react";
-import "./Header.css";
+import "./header.css";
 import logo from "../../assets/images/logos/evangadi_main_logo_black.png";
 import { useState, useContext } from "react";
 import { Squash as Hamburger } from "hamburger-react";
